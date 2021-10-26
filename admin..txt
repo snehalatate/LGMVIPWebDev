@@ -1,0 +1,130 @@
+<html>
+<head>
+<link="stylesheet" href="abc.css">
+<meta name="viewport" content="with-device-width,initial-scale=1.0">
+ <title>SHIVRAJ TRAVELS</title>
+</head>
+<body >
+<header>
+    <div class="main">
+       <ul>
+           <li class="active"><a href="#">HOME</a></li>
+           <li><a href="#">ADMIN</a></li>
+           <li><a href="#">USER</a></li>
+           <li><a href="#">MAINTAINCE</a></li>
+           <li><a href="#">FINANCE</a></li>
+       </ul>
+     </div>
+     <div class="title">
+        <h1>SHIVRAJ TRAVELS</h1>
+     </div>
+     <div class="button">
+        <a href="#" class="btn">Admin Login</a>
+        <a href="#" class="btn">User Login</a>
+     </div>
+     <div id='login-form'class='login-page'>
+        <div class="form-box">
+           <div class='button-box'>
+             <div id='btn'></div>
+             <button
+             type='button'onclick='login()' class='toggle-btn'>Log In</button>
+             <button
+             type='button'onclick='register()' class='toggle-btn'>Register</button>
+        </div>
+        <form id='login' class='input-group-login'>
+           <input type='text'class='input-field'placeholder='Email Id' reqired>
+           <input type='password'class='input-field'placeholder='Enter Password' reqired>
+           <input type='checkbox'class='check-box'><span>Remember Password</span>   
+           <button type='submit' class='submit-btn'>Log in</button>
+        </form>
+        <form id='register' class='input-group-register'>
+           <input type='text'class='input-field'placeholder='First Name' reqired>
+           <input type='password'class='input-field'placeholder='Last Name' reqired>
+           <input type='password'class='input-field'placeholder='Emil Id' reqired>
+           <input type='password'class='input-field'placeholder='Confirm Password' reqired>
+            <input type='checkbox'class='check-box'><span>I agree to the terms and conditions</span>  
+            <button type='submit' class='submit-btn'>Register</button>
+           
+           
+        </form>
+       </div>
+     </div>
+   </div>
+        
+    
+</header>
+
+<style>
+body{
+min-height:100vh;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../1.png');
+background-size:cover;
+background-position: center;
+position: relative;
+}
+ul{
+float: right;
+list-style-type: none;
+margin-top:25px;
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+text-decoration: none;
+color: #fff;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition:0.6s ease;
+}
+ul li a:hover{
+background-color:#fff;
+color:#000;
+}
+ul li.active a{
+background-color:#fff;
+color:#000;
+}
+.title{
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.title h1{
+color: #fff;
+font-size:50px;
+}
+.button{
+position:absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.btn{
+border:1px solid #fff;
+padding: 10px 30px;
+color:#fff;
+text-decoration: none;
+transition: 0.s ease;
+}
+.btn:hover{
+background-color:#fff;
+color:#000;
+}
+
+
+
+
+
+
+
+     
+</style>
+
+           
+
+<body>
+
+</body>
+</html>
